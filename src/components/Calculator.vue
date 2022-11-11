@@ -4,22 +4,22 @@
       <p>DISPLAY</p>
     </div>
     <div class="calculator-panel">
-      <div><button>7</button></div>
-      <div><button>8</button></div>
-      <div><button>9</button></div>
-      <div><button>+</button></div>
-      <div><button>4</button></div>
-      <div><button>5</button></div>
-      <div><button>6</button></div>
-      <div><button>-</button></div>
-      <div><button>1</button></div>
-      <div><button>2</button></div>
-      <div><button>3</button></div>
-      <div><button>x</button></div>
-      <div><button>0</button></div>
-      <div><button>,</button></div>
-      <div><button>=</button></div>
-      <div><button>/</button></div>
+      <div class="btn"><button>7</button></div>
+      <div class="btn"><button>8</button></div>
+      <div class="btn"><button>9</button></div>
+      <div class="btn"><button>+</button></div>
+      <div class="btn"><button>4</button></div>
+      <div class="btn"><button>5</button></div>
+      <div class="btn"><button>6</button></div>
+      <div class="btn"><button>-</button></div>
+      <div class="btn"><button>1</button></div>
+      <div class="btn"><button>2</button></div>
+      <div class="btn"><button>3</button></div>
+      <div class="btn"><button>x</button></div>
+      <div class="btn"><button>0</button></div>
+      <div class="btn"><button>,</button></div>
+      <div class="btn"><button>=</button></div>
+      <div class="btn"><button>/</button></div>
     </div>
   </div>
 </template>
