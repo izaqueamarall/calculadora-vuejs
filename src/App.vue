@@ -1,24 +1,28 @@
 <template>
   <div class="main-card">
-
+    <CalculatorCard />
   </div>
 </template>
 
 <script>
-import Calculator from "./components/Calculator.vue";
+import CalculatorCard from "./components/Calculator.vue";
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
   components: {
-    Calculator
-  }
-
-}
+    CalculatorCard,
+  },
+};
 </script>
 
 <style>
-
+.main-card {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 </style>
