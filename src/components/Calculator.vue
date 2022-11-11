@@ -29,6 +29,9 @@ export default {
 .display {
 background-color: black;
 }
+.display > p {
+    color: white;
+}
 .calculator-panel {
   display: flex;
   justify-content: center;
