@@ -1,5 +1,6 @@
 <template>
   <div class="main-card">
+    <h1>Pequeno projeto de calculadora em desenvolvimento...</h1>
     <CalculatorCard />
   </div>
 </template>
@@ -24,5 +25,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.main-card > h1 {
+  font-family: 'Courier New', Courier, monospace;
 }
 </style>
